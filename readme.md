@@ -17,12 +17,8 @@
 
 #### Task 1
 
-Create a section for users to be able to register and implement the following features:
-_ User registration and authentication.
-_ Only authenticated users will have access to the functionalities created in the 1st task.
+Create a section for users to be able to register and implement the following features: - User registration and authentication. - Only authenticated users will have access to the functionalities created in the 1st task.
 
 #### Task 2:
 
-Implement a user action to send messages (emails or SMS).
-_ For this, use any messaging service integration, example: https://www.twilio.com/en-us, with message sending through a queue.
-_ For the queue, you can use an integration service or write your own queue implementation. \* After message sending is processed, use a logging scheme for messages.
+Implement a user action to send messages (emails or SMS). - For this, use any messaging service integration, example: https://www.twilio.com/en-us, with message sending through a queue. - For the queue, you can use an integration service or write your own queue implementation. \* After message sending is processed, use a logging scheme for messages.
