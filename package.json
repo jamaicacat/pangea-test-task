@@ -1,0 +1,22 @@
+{
+  "name": "pangea-test-task",
+  "version": "1.0.0",
+  "description": "Test task for Pangea. App provides functionality for users for storing and managing files",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamaicacat/pangea-test-task.git"
+  },
+  "author": "Nikita Klochko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamaicacat/pangea-test-task/issues"
+  },
+  "homepage": "https://github.com/jamaicacat/pangea-test-task#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}
