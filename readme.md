@@ -17,7 +17,10 @@
 
 #### Task 1
 
-Create a section for users to be able to register and implement the following features: - User registration and authentication. - Only authenticated users will have access to the functionalities created in the 1st task.
+Create a section for users to be able to register and implement the following features:
+
+- User registration and authentication.
+- Only authenticated users will have access to the functionalities created in the 1st task.
 
 #### Task 2:
 
