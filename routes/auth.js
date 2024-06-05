@@ -6,7 +6,7 @@ const {
 	register,
 	updateUser,
 	deleteUser,
-} = require('../controllers/auth')
+} = require('../controllers/authController')
 
 const authenticateUser = require('../middleware/authentication')
 

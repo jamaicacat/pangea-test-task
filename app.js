@@ -7,6 +7,7 @@ const app = express()
 const connectDB = require('./db/connect')
 
 const authRouter = require('./routes/auth')
+const fileRouter = require('./routes/file')
 
 const notFoundMiddleware = require('./middleware/not-found')
 const errorHandlerMiddleware = require('./middleware/error-handler')
@@ -15,6 +16,7 @@ app.use(express.json())
 
 // routes
 app.use('/api/v1/auth', authRouter)
+app.use('/api/v1/files', fileRouter)
 
 // middleware
 app.use(notFoundMiddleware)
